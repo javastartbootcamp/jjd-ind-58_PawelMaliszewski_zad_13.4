@@ -32,7 +32,7 @@ public class CustomList<T> {
         }
     }
 
-    @SuppressWarnings("")
+    @SuppressWarnings("unchecked")
     private void moveIndex(int index, T t) {
         for (int i = size - 1; i > index; i--) {
             T temp = (T) elements[i - 1];
