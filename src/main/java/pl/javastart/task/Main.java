@@ -13,12 +13,9 @@ public class Main {
         customListOfStrings.add("1");
         customListOfStrings.add("2");
         customListOfStrings.add("3");
-        customListOfStrings.add("4");
-        customListOfStrings.add("5");
+        customListOfStrings.add(0, "5");
         System.out.println(customListOfStrings.toString());
-        customListOfStrings.add(2, "test");
-        customListOfStrings.remove(1);
-        System.out.println(customListOfStrings.toString());
+      ;
 
     }
 }
